@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+
+    <!-- slick slider -->
+    <link rel="stylesheet" href="assets/vendor/slick/slick.css">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- menu start -->
+    <div class="menu p-4">
+        <div class="container menu__container">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/image/Bandage.png" alt="">
+                </a>
+            </div>
+
+            <ul class="main-menu">
+                <li class="menu-item"><a href="#">Home</a></li>
+                <li class="menu-item"><a href="#">Shop</a></li>
+                <li class="menu-item"><a href="#">About</a></li>
+                <li class="menu-item"><a href="#">Blog</a></li>
+                <li class="menu-item"><a href="#">Contact</a></li>
+                <li class="menu-item">
+                    <a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="buttons">
+                <a href="#" class="menu-btn"><i class="fa-solid fa-user"></i> Login / Register</a>
+                <a href="#" class="menu-btn"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#" class="menu-btn"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#" class="menu-btn"><i class="fa-solid fa-heart"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- menu end -->
+
+
+    <!-- banner section start -->
+    <div class="banner">
+        <div class="item" style="background-image: url(assets/image/shop-hero-3-product-slide-2.jpg);">
+            <div class="container">
+                <div class="banner-area text-center text-white">
+                    <h2>GROCERIES DELIVERY</h2>
+                    <p>We know how large objects will act, but things on a
+                        small scale just do not act that way.</p>
+                    <a href="#" class="btn btn-primary">Start Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="item" style="background-image: url(assets/image/shop-hero-3-product-slide-2.jpg);">
+            <div class="container">
+                <div class="banner-area text-center text-white">
+                    <h2>GROCERIES DELIVERY</h2>
+                    <p>We know how large objects will act, but things on a
+                        small scale just do not act that way.</p>
+                    <a href="#" class="btn btn-primary">Start Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner section end -->
+
+
+    <!-- service section start -->
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card p-5" style="background-image: url(assets/image/media-bg-cover.png);">
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p>Your Space</p>
+                                <h3> Unique Life </h3>
+                                <p class="m-0">Explore Items</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card p-5" style="background-image: url(assets/image/media-bg-cover-2.png);">
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p>Your Space</p>
+                                <h3> Unique Life </h3>
+                                <p class="m-0">Explore Items</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card p-5" style="background-image: url(assets/image/media-bg-cover-3.png);">
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p>Your Space</p>
+                                <h3> Unique Life </h3>
+                                <p class="m-0">Explore Items</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section end -->
+
+
+    <!-- best-seller section start -->
+    <section class="best-seller">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="image position-relative">
+                        <img src="assets/image/card-cover-5.jpg" alt="" class="w-100">
+
+                        <div class="text position-absolute top-0 start-0 p-4">
+                            <h5><strong><a href="">FURNITURE</a></strong></h5>
+                            <p>5 Items</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="heading border-bottom mb-3 d-flex justify-content-between">
+                        <h4>BESTSELLER PRODUCTS</h4>
+                        <div class="category-slider" id="myTab" role="tablist">
+                            <div class="item">
+                                <button class="nav-link active" id="men-tab" data-bs-toggle="tab" data-bs-target="#men"
+                                    type="button" role="tab" aria-controls="men" aria-selected="true">Home</button>
+                            </div>
+
+
+                            <div class="item">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                    type="button" role="tab" aria-controls="profile"
+                                    aria-selected="false">Profile</button>
+                            </div>
+
+                            <div class="item">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                                    type="button" role="tab" aria-controls="contact"
+                                    aria-selected="false">Contact</button>
+                            </div>
+
+                            <div class="item">
+                                <button class="nav-link" id="new-tab" data-bs-toggle="tab" data-bs-target="#new"
+                                    type="button" role="tab" aria-controls="new" aria-selected="false">Contact</button>
+                            </div>
+                        </div>
+
+
+                        <div class="slider-btn"></div>
+                    </div>
+
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="men" role="tabpanel" aria-labelledby="men-tab">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-6.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-6.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-6.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- best-seller section end -->
+
+    <!-- feature section start -->
+    <section class="features">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-7">
+                    <img src="assets/image/unsplash_X5BWooeO4Cw.png" alt="" class="w-100">
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="text text-center">
+                        <h4><strong>MOST POPULAR</strong></h4>
+                        <p>We focus on ergonomics and meeting
+                            you where you work. It's only a
+                            keystroke away.</p>
+                        <img src="assets/image/printed-summer-dress-1.png" alt="" class="w-100">
+                        <p><strong>English Department</strong></p>
+                        <p class="price">$16.48 <span>$6.48</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-lg-3">
+                    <div class="single-feature">
+                        <h2>1.</h2>
+                        <div class="text-area">
+                            <p class="mb-2"><strong>Easy to use</strong></p>
+                            <p class="m-0">Things on a very  small that you have any direct</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="single-feature">
+                        <h2>2.</h2>
+                        <div class="text-area">
+                            <p class="mb-2"><strong>Easy to use</strong></p>
+                            <p class="m-0">Things on a very  small that you have any direct</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="single-feature">
+                        <h2>3.</h2>
+                        <div class="text-area">
+                            <p class="mb-2"><strong>Easy to use</strong></p>
+                            <p class="m-0">Things on a very  small that you have any direct</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="single-feature">
+                        <h2>4.</h2>
+                        <div class="text-area">
+                            <p class="mb-2"><strong>Easy to use</strong></p>
+                            <p class="m-0">Things on a very  small that you have any direct</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- feature section end -->
+
+    <!-- best-seller section start -->
+    <section class="best-seller">
+        <div class="container">
+            <div class="row">
+                
+
+                <div class="col-lg-8">
+                    <div class="heading border-bottom mb-3 d-flex justify-content-between">
+                        <h4>BESTSELLER PRODUCTS</h4>
+                        <div class="category-slider" id="myTab_2" role="tablist">
+                            <div class="item">
+                                <button class="nav-link active" id="men-tab" data-bs-toggle="tab" data-bs-target="#men"
+                                    type="button" role="tab" aria-controls="men" aria-selected="true">Home</button>
+                            </div>
+
+
+                            <div class="item">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                    type="button" role="tab" aria-controls="profile"
+                                    aria-selected="false">Profile</button>
+                            </div>
+
+                            <div class="item">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                                    type="button" role="tab" aria-controls="contact"
+                                    aria-selected="false">Contact</button>
+                            </div>
+
+                            <div class="item">
+                                <button class="nav-link" id="new-tab" data-bs-toggle="tab" data-bs-target="#new"
+                                    type="button" role="tab" aria-controls="new" aria-selected="false">Contact</button>
+                            </div>
+                        </div>
+
+
+                        <div class="slider-btn-2"></div>
+                    </div>
+
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="men" role="tabpanel" aria-labelledby="men-tab">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-6.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-6.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-6.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="single-product text-center mb-3">
+                                        <img src="assets/image/product-cover-5.png" alt="">
+                                        <h4><a href="#">Graphic Design</a></h4>
+                                        <p>English Department</p>
+                                        <p class="price">$16.48 <span>$6.48</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="image position-relative">
+                        <img src="assets/image/card-cover-57.jpg" alt="" class="w-100">
+
+                        <div class="text position-absolute top-0 start-0 p-4">
+                            <h5><strong><a href="">FURNITURE</a></strong></h5>
+                            <p>5 Items</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- best-seller section end -->
+
+
+    <!-- feature section start -->
+    <section class="features">
+        <div class="container">
+            <div class="row g-0">
+                
+
+                <div class="col-lg-4">
+                    <div class="text text-center">
+                        <h4><strong>MOST POPULAR</strong></h4>
+                        <p>We focus on ergonomics and meeting
+                            you where you work. It's only a
+                            keystroke away.</p>
+                        <img src="assets/image/printed-summer-dress-1.png" alt="" class="w-100">
+                        <p><strong>English Department</strong></p>
+                        <p class="price">$16.48 <span>$6.48</span></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <img src="assets/image/unsplash_X5BWooeO4Cwww.png" alt="" class="w-100">
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+    <!-- feature section end -->
+
+
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-3.6.4.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- slick slider -->
+    <script src="assets/vendor/slick/slick.min.js"></script>
+
+    <!-- custom js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

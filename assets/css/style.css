@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+    --black: #000;
+    --gray: #737373;
+    --ash: #BDBDBD;
+    --blue: #23A6F0;
+    --green: #23856D;
+}
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+section{
+    padding: 80px 0;
+}
+
+
+/* menu section start */
+
+.menu{
+    background: #fff;
+}
+.menu__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu .main-menu{
+    display: flex;
+    gap: 30px;
+}
+
+
+.menu .main-menu .menu-item{
+    position: relative;
+}
+
+.menu .main-menu .menu-item a{
+    color: var(--black);
+}
+
+.menu .main-menu .menu-item .sub-menu{
+    position: absolute;
+    top: 48px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--black);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s linear;
+}
+
+.main-menu .menu-item .sub-menu li {
+    width: 100%;
+}
+
+.main-menu .menu-item .sub-menu li a{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.main-menu .menu-item .sub-menu li:hover a{
+    background: #f0f0f0;
+}
+
+.main-menu .menu-item:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu .buttons{
+    display: flex;
+    gap: 20px;
+}
+
+/* menu section end */
+
+
+/* banner section  start*/
+.banner{position: relative;}
+.banner .item{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.banner .item .banner-area{
+    padding: 140px 10%;
+}
+
+.banner .slick-arrow{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.banner .slick-prev{
+    left: 20px;
+}
+.banner .slick-next{
+    right: 20px;
+}
+
+
+.banner .slick-dots {
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+
+
+.banner .slick-dots button {
+    display: block;
+    width: 60px;
+    height: 4px;
+    padding: 0;
+    border: none;
+    background-color: rgb(124, 124, 124);
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
+.banner .slick-dots li.slick-active button {
+    background-color: rgb(255, 255, 255);
+}
+
+/* banner section  end*/
+
+
+/* servive section start */
+.services .card h3{
+    font-weight: bold;
+}
+
+.services .card{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #ECECEC;
+    border-radius: 0;
+}
+/* servive section end */
+
+.category-slider{
+    width: 40%;
+}
+
+
+.features .text{
+    background: #FAFAFA;
+    padding: 91px 30px;
+}
+
+.features .single-feature{
+    display: flex;
+    gap: 15px;
+}
+
+.features .single-feature h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: red;
+}
